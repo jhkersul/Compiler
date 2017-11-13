@@ -1,0 +1,4 @@
+/Users/kersul/Develop/Compiler/CMakeFiles/rebuild_cache.dir
+/Users/kersul/Develop/Compiler/CMakeFiles/edit_cache.dir
+/Users/kersul/Develop/Compiler/CMakeFiles/CompilerTests.dir
+/Users/kersul/Develop/Compiler/CMakeFiles/Compiler.dir
