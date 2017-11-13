@@ -1,5 +1,5 @@
 #include <criterion/criterion.h>
-#include "../src/text-manipulator.h"
+#include "../src/General/text-manipulator.h"
 
 /**
  * Testing if the text of the file is the test returned by readFile function

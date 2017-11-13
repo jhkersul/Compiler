@@ -1,9 +1,8 @@
 #include <memory.h>
-#include <printf.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include "lexical-transitions.h"
-#include "text-manipulator.h"
+#include "../General/text-manipulator.h"
 
 // All lexical transitions
 struct LexicalTransition transitions[] = {

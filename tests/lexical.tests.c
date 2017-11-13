@@ -1,5 +1,5 @@
 #include <criterion/criterion.h>
-#include "../src/lexical.h"
+#include "../src/Lexical/lexical.h"
 
 Test(is_valid_atom, passing) {
   // Testing invalid atoms
@@ -54,12 +54,12 @@ Test(generate_atoms, passing) {
     { "number", "10" },
     { "end", ";" }
   };
-  struct Atom* generatedAtoms = generateAtoms("num := 10;");
+  int resultedSize = 0;
+  struct Atom* generatedAtoms = generateAtoms("num := 10;", &resultedSize);
 
-  cr_assert(strcmp(generatedAtoms[0].type, atomsExpected1[0].type) == 0, "Generated atoms must be equal the atoms expected");
-  cr_assert(strcmp(generatedAtoms[1].type, atomsExpected1[1].type) == 0, "Generated atoms must be equal the atoms expected");
-  cr_assert(strcmp(generatedAtoms[2].type, atomsExpected1[2].type) == 0, "Generated atoms must be equal the atoms expected");
-  cr_assert(strcmp(generatedAtoms[3].type, atomsExpected1[3].type) == 0, "Generated atoms must be equal the atoms expected");
+  for (int i = 0; i < resultedSize; i += 1) {
+    cr_assert(strcmp(generatedAtoms[i].type, atomsExpected1[i].type) == 0, "Generated atoms must be equal the atoms expected");
+  }
 }
 
 Test(append_atom_array, passing) {

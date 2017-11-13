@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "lexical.h"
+#include "Lexical/lexical.h"
 
 int main() {
   int numAtoms = 0;

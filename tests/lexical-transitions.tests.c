@@ -1,5 +1,5 @@
 #include <criterion/criterion.h>
-#include "../src/lexical-transitions.h"
+#include "../src/Lexical/lexical-transitions.h"
 
 Test(get_next_state, passing) {
   char* currentState = "S0";

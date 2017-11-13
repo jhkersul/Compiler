@@ -126,35 +126,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kersul/Develop/Compiler/src/lexical-transitions.c">
+		<Unit filename="/Users/kersul/Develop/Compiler/src/General/text-manipulator.c">
 			<Option target="CompilerTests"/>
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="/Users/kersul/Develop/Compiler/src/lexical-transitions.h">
+		<Unit filename="/Users/kersul/Develop/Compiler/src/General/text-manipulator.h">
 			<Option target="CompilerTests"/>
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="/Users/kersul/Develop/Compiler/src/lexical.c">
+		<Unit filename="/Users/kersul/Develop/Compiler/src/Lexical/lexical-transitions.c">
 			<Option target="CompilerTests"/>
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="/Users/kersul/Develop/Compiler/src/lexical.h">
+		<Unit filename="/Users/kersul/Develop/Compiler/src/Lexical/lexical-transitions.h">
+			<Option target="CompilerTests"/>
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/kersul/Develop/Compiler/src/Lexical/lexical.c">
+			<Option target="CompilerTests"/>
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/kersul/Develop/Compiler/src/Lexical/lexical.h">
 			<Option target="CompilerTests"/>
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/kersul/Develop/Compiler/src/main.c">
-			<Option target="Compiler"/>
-		</Unit>
-		<Unit filename="/Users/kersul/Develop/Compiler/src/semantic.c">
-			<Option target="CompilerTests"/>
-			<Option target="Compiler"/>
-		</Unit>
-		<Unit filename="/Users/kersul/Develop/Compiler/src/text-manipulator.c">
-			<Option target="CompilerTests"/>
-			<Option target="Compiler"/>
-		</Unit>
-		<Unit filename="/Users/kersul/Develop/Compiler/src/text-manipulator.h">
-			<Option target="CompilerTests"/>
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/kersul/Develop/Compiler/tests/lexical-transitions.tests.c">

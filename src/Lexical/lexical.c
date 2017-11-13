@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <memory.h>
 #include <stdlib.h>
-#include "text-manipulator.h"
+#include "../General/text-manipulator.h"
 #include "lexical.h"
 #include "lexical-transitions.h"
 
