@@ -48,7 +48,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-
 # CMake Files
 CMakeCache.txt
 CMakeFiles
@@ -59,3 +58,7 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+
+# Compiled files
+Compiler
+CompilerTests
